@@ -1,0 +1,525 @@
+
+
+body{
+    font-family:Verdana;
+    font-weight:500;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*============= Material Icon Css End ========*/
+
+/*============= Main CSS Start ===========*/
+.c-navabr-bgcolor{
+    background-color:black;
+    border-radius: 0;
+    margin:0;
+    height:65px;
+    border:none;
+    font-weight: 800;
+    color:#fff;
+    box-shadow: 0 1px 2px black;
+}
+/*.navbar-addshadow{
+    box-shadow: 0 6px 12px #6f5757;
+}*/
+
+#scroll {
+    z-index: 299;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFF;
+    top: auto;
+    left: auto;
+    right: 30px;
+    bottom: 50px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.fa1{
+    vertical-align: text-top;
+}
+.c-navbar-container .c-navbar-left-item li > a, .c-navbar-container .c-navbar-right-item li > a{
+    padding:18px 15px;
+    line-height: 10px;
+    color:rgb(103, 106, 108);
+}
+.c-navbar-container .c-navbar-left-item li > .sidenav-icon-bar:hover svg > path#bar_icon{
+    fill:#000;
+}
+.c-navbar-container .c-navbar-left-item li > .c-brand-logo, .c-navbar-container .c-navbar-right-item li > a{
+    line-height: 29px;
+    color:#fff;
+    margin-right: 30px;
+}
+.c-navbar-container .c-navbar-left-item li > .c-brand-logo{
+    font-size:18px;
+    margin-left:40px;
+}
+.c-navbar-container .c-navbar-right-item li > .nav-items{
+    font-size: 14px;
+    font-weight:500;
+}
+.c-navbar-container .c-navbar-form{
+    margin:13px 40px 13px 0;
+}
+.c-navbar-form .c-input-group > input[type="text"]{
+    height:39px; 
+    padding: 6px 0 6px 22px;
+}
+.c-navbar-form .c-input-group-fields > input[type="text"]{
+    box-shadow: inset 0 0 0 0; 
+}
+.c-navbar-form .c-input-group-common >input[type="text"], .c-navbar-form .c-input-group-common > .c-input-group-addon{
+    border:none;
+    background-color:#fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color:#fff;
+    background-color: transparent;
+}
+.c-form-max-width{
+    max-width:500px;
+    width:100%;
+}
+.c-input-group{
+    box-shadow: 0 2px 2px #ddd;
+    border-radius: 20px;
+}
+.c-form-max-width .c-input-group-fields{
+    width: 100%;
+}
+.c-navbar-form .c-input-border-radius-tb-l > input[type="text"]{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.c-navbar-form .c-input-border-radius-tb-r > .c-input-group-addon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.c-input-group .c-input-group-addon{
+    padding: 0;
+    line-height: 37px;
+}
+.c-input-group-addon svg{
+    vertical-align: middle;
+}
+
+.banner-container{
+    padding-top: 64px;
+}
+.m--18{
+    margin:19.6% 0;
+}
+/*.banner-conatiner-content h1{
+    margin:0;
+    color:#676a6c;
+}*/
+
+.follow-us{
+    position: fixed;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    bottom: 20%;
+    padding: 11px 0;
+    background-color:#24D366;
+    color:#fff;
+    box-shadow: 0 1px 1px #ada3a3;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.follow-us:hover{
+    background-color: #24D366;
+    color:#fff;
+    width:80px;
+}
+.follow-us i{
+    font-size: 22px;
+}
+/*============= Main CSS End ===========*/
+
+
+.btn-close svg{
+    width: 14px;
+    height: 14px;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.btn-close{
+    background-color: transparent;
+    border: 1px solid #2e353f !important;
+    min-width: 26px;
+    height: 26px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+}
+.btn-close:hover {
+    background-color: #2e353f;
+    color: #fff;
+}
+
+.img-res{
+    width: 100%;  
+} 
+.container-fluid{
+    padding-right: 0; 
+    padding-left: 0;
+}
+.m-b-40{
+    margin-bottom:60px;
+}
+.m-t-20{
+    margin-top:20px;
+}
+.m-t-40{
+    margin-top:140px;
+    color:#fff;
+}
+
+.contact-getin >p {
+    color:#fff;
+}
+.footer-f span{
+    font-size:12px;
+}
+.contact-logo{
+    font-weight:600; 
+    font-size:30px;
+    color:#fff;
+    margin-top:130px;
+}
+.conatct-content{
+    font-size: 14px;
+    color:#fff;
+    line-height:2;
+    text-align:justify;
+}
+.contact-m-r{
+    margin-right:45px;
+}
+.input-group input{
+    padding: 8px 8px;
+    width: 22em;
+    margin-top:15px;
+}
+.input-group input:hover{
+    border-color:none;
+}
+.input-group button{
+    padding: 10px 8px;
+    color:#fff;
+    border: none;
+}
+.btn-subscribe{
+    background:-webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+    background:-moz-linear-gradient(to right, #ff4b2b, #ff416c);
+    background:-o-linear-gradient(to right, #ff4b2b, #ff416c);
+    background:linear-gradient(to right, #ff4b2b, #ff416c);
+    color:#fff;
+}
+.copyright-container{
+    background-color:black;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.social-icons a:hover  svg > path#facebook-svg{
+    fill:#fff;
+}
+.custom-pos{
+    position:relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left:55%;
+  transform: translate(-50%, -50%);
+  font-size:45px;
+  color: #fff;
+  font-weight:700;
+}
+.overlay-container-home{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.overlay-container{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+.social-icons a{
+    color:#fff;
+    display: inline-block;
+    text-align: center;
+    width:40px;
+    height:40px;
+    padding: 7px 0;
+    border-radius: 4px;
+    transition:all 0.4s ease-in-out;
+}
+.social-icons > .facebook:hover{
+    background-color: #3B5998;
+}
+.social-icons > .twitter:hover{
+    background-color: #00ACEE;
+}
+.social-icons > .soundcloud:hover{
+    background-color: #f50;
+}
+.social-icons > .instagram:hover{
+    background-color: #DD4B39;
+}
+.about-img{
+    margin-right:-100px;
+}
+.about-content{
+margin-top:150px;
+}
+.about-content h1{
+    font-weight:600;
+    font-size:30px;
+}
+.about-content p{
+    font-size: 16px;
+    line-height:1.5;
+    text-align: justify;
+}
+
+.typewriter {
+ /* border-right: solid 5px rgba(255,255,255,.75);*/
+  white-space: nowrap;
+  overflow: hidden;      
+  font-size: 40px;
+  color:#fff;
+  text-align: center;
+/*  background: -webkit-linear-gradient(#833ab4,#fd1d1d,#833ab4,#fd1d1d); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.c-navbar-container .c-navbar-right-item li:hover  .nav-items{
+    color:yellow;
+}
+
+/* Animation */
+.typewriter {
+  animation: animated-text 4s linear 1s 1 normal both,
+             animated-cursor 600ms linear infinite;
+}
+
+.fanpage-container h1{
+    color:#fff;
+    margin-top:100px;
+    font-weight:600;
+    font-size:35px;
+}
+.fanpage-container {
+    font-size:20px;
+    color:#fff;
+    margin-bottom:80px;
+}
+.m-b{
+    margin-bottom:80px;
+}
+.m-t{
+    margin-top:20px;
+}
+.item{
+    box-shadow:0 1px 2px #ddd;
+}
+.owl-theme .owl-dots{
+    display:none;
+}
+.owl-theme .owl-nav [class*='owl-']:hover, .owl-theme .owl-nav [class*='owl-']:focus {
+    background: transparent !important;
+    color: #fff !important;
+    text-decoration: none;
+    outline: none !important;
+}
+.owl-nav .owl-prev, .owl-nav .owl-next{
+    font-size: 28px !important;
+    color:#fff !important;
+
+}
+
+
+/*music player*/
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width:850px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation 
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding:0px;}
+    .sidenav a {font-size: 24px;}
+}
+
+/*==================== Media Queries =====================*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
